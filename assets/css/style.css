@@ -8,6 +8,7 @@ header {
 
 .purpura {
   background-color: #660066;
+  color: #ffffff;
 }
 
 .linea {
@@ -16,4 +17,12 @@ header {
 
 .texto-hero {
   padding-top: 800px;
+}
+
+.icon {
+  color: #660066;
+}
+
+footer a {
+  color: #ffffff
 }
