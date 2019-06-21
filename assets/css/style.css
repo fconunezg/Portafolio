@@ -1,3 +1,7 @@
+body {
+  font-family: 'B612 Mono', monospace;
+}
+
 header {
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
@@ -17,6 +21,7 @@ header {
 
 .texto-hero {
   padding-top: 800px;
+  font-family:'Lato', sans-serif;
 }
 
 .icon {
