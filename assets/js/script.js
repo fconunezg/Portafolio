@@ -17,4 +17,5 @@ $(function(){
   });
 // habilita popovers en todo el documento (codigo original en BootStrap incluye funcion document ready)
     $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
 });

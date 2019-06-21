@@ -12,9 +12,6 @@
 
   </head>
 
-
-
-
   <!--FontAwesome-->
   <script src="https://kit.fontawesome.com/98f914b8c3.js"></script>
 
@@ -33,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#about">Sobre mí <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="#about" data-toggle="tooltip" data-placement="bottom" title="Conoceme">Sobre mí <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#work">Experiencia</a>
+              <a class="nav-link text-white" href="#experiencia" data-toggle="tooltip" data-placement="bottom" title="Mi experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Trabajos</a>
+              <a class="nav-link text-white" href="#work" data-toggle="tooltip" data-placement="bottom" title="Mis Trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Contacto</a>
+              <a class="nav-link text-white" href="#contact" data-toggle="tooltip" data-placement="bottom" title="Contactame">Contacto</a>
             </li>
           </ul>
         </div>
@@ -58,7 +55,7 @@
     </header>
 
 <!-- sobre mi -->
-<div class="container">
+<div class="container" id="about">
   <div class="container-fluid">
     <div class="encabezado text-center  my-3 py-5">
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
@@ -76,7 +73,7 @@
   </div>
 
 <!-- experiencia -->
-  <div class="container-fluid py-5 my-5">
+  <div class="container-fluid py-5 my-5" id="experiencia">
     <div class="encabezado text-center pb-5">
       <h2>MI EXPERIENCIA</h2>
     </div>
@@ -98,28 +95,28 @@
 </div>
 
 <!-- ultimos trabajos -->
-  <div class="container-fluid purpura pb-5">
+  <div class="container-fluid purpura pb-5" id="work">
 
     <div class="encabezado text-center text-white pt-3 pb-5">
       <h2>MIS ÚLTIMOS TRABAJOS</h2>
     </div>
 
       <div class="card-deck">
-        <div class="card col-md-4">
+        <div class="card col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 1">
           <img class="card-img-top" src="assets/img/meet_coffee.png" alt="coffee">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
-        <div class="card col-md-4">
+        <div class="card col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 2">
           <img class="card-img-top" src="assets/img/iguana_page.png" alt="iguana">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
-        <div class="card col-md-4">
+        <div class="card col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 3">
           <img class="card-img-top" src="assets/img/suricata.png" alt="suricata">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -129,21 +126,21 @@
       </div>
 
       <div class="card-deck pt-5">
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 4">
           <img class="card-img-top" src="assets/img/cuppon.png" alt="cuppon">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 5">
           <img class="card-img-top" src="assets/img/ricomida.png" alt="ricomida">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-container="body" data-toggle="popover" data-placement="top" data-content="Proyecto 6">
           <img class="card-img-top" src="assets/img/dmark.png" alt="dmark">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
